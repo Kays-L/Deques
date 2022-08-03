@@ -1,6 +1,7 @@
 import Node from '../node.js';
 import Deque from '../deque.js';
 
+// supports O(1) data retrival via key
 class HashedDeque extends Deque {
     #table;
 
